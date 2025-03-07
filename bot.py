@@ -73,7 +73,7 @@ async def build_keyboard():
 # Main function to initialize the bot
 def main():
     # Telegram bot API token (replace with your bot token)
-    TOKEN = 'YOUR_TOKEN'
+    TOKEN = 'YOUR_TOKEN_HERE'
 
     # Create the Application and pass it your bot's token
     application = Application.builder().token(TOKEN).build()
