@@ -7,10 +7,13 @@ A Telegram bot to control media playback on your laptop, especially when connect
 - Skip forward/backward by 10 seconds.
 - Adjust volume up/down.
 
-## Requirements
-- Python 3.x
-- `python-telegram-bot` library
-- macOS (for AppleScript support)
+## Prerequisites
+
+Before using this bot, ensure you have the following:
+
+- **Python 3.x**: The bot is written in Python.
+- **Telegram Bot Token**: Create a bot using [BotFather](https://core.telegram.org/bots#botfather) and obtain your bot token.
+- **macOS**: The current implementation uses AppleScript for media control. (Support for other platforms can be added.)
 
 ## Installation
 1. Clone the repository:
